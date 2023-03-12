@@ -1,5 +1,5 @@
 {
-    "java.configuration.updateBuildConfiguration": "interactive",
+    // "java.configuration.updateBuildConfiguration": "interactive",
     "jenkins-runner.jobs": {
         "ide": {
             "isDefault": true,
@@ -16,4 +16,31 @@
 
         } 
     }
+
+    // "jenkins-runner.hostConfigs": {
+    //     "master": {
+    //         "url": "http://localhost:8080",
+    //         "user": "user",
+    //         "password": "password"
+    //     }
+    // },
+
+    // "jenkins-runner.jobs": {
+    //     "test 1 - defaults": {
+    //         "isDefault": true,
+    //         "runWith": ["local", "master"],
+    //         "name": "test-pipeline",
+    //     },
+    //     "test 1 - other params": {
+    //         "runWith": "local",
+    //         "name": "test-pipeline",
+    //         "parameters": {
+    //             "message": "Hello World!"
+    //         },
+    //         "environment": {
+    //             "HOST_NAME": "localhost",
+    //             "CPU_COUNT": 3
+    //         }
+    //     }
+    // }
 }
